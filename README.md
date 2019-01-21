@@ -1,6 +1,5 @@
 # DeepLink
-a simplified python implementation for DeepLink (DeepLink: A Deep Learning Approach for User
-Identity Linkage)
+a simplified python implementation for DeepLink [DeepLink: A Deep Learning Approach for User Identity Linkage](https://ieeexplore.ieee.org/abstract/document/8486231)
 
 ## Requirements
 - python >= 2.7
@@ -15,4 +14,6 @@ networks using network embedding](https://www.ijcai.org/Proceedings/16/Papers/25
 
 ## Usage
 To run DeepLink, first clone the project to your python IDE (eg:Pycharm), then run the `main.py`.
+Our embedding method is introduced in the file `embedding.py`, which is a `random_walk` and `word2vec` implementation .
 >Note: you need to install the required libs.
+
