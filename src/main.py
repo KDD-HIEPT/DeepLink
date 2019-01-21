@@ -52,7 +52,7 @@ def add_layer(input_data, in_size, out_size, activation_function=None):
     return outputs
 
 
-# record the
+# record the current data index
 data_index = 0
 
 
@@ -191,4 +191,3 @@ with tf.Session() as session:
             for i in range(1, 101):
                 if i in [1, 5, 10, 15, 30, 100]:
                     print('top ' + str(i) + ' : ' + str(total[i] / count))
-                # print('top ' + str(i) + ' : ' + str(total[i] / count))
