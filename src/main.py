@@ -13,8 +13,8 @@ foursquare_vocab_path = data_path + 'foursquare_model.vocab'
 # there are 3148 anchor users in data set, we use 2098 users for training, 1050 users for testing
 connect_data_path = data_path + 'trainConnect.txt'
 connect_test_data_path = data_path + 'testConnect.txt'
-# we use 400 users from training data set for dual learning(warm up)
-connect_warm_up_data_path = data_path + 'trainConnect_400_warm_up.txt'
+# in this simplified  version, we will train our model directly
+# connect_warm_up_data_path = data_path + 'trainConnect_400_warm_up.txt'
 # our embedding data size is 800
 embedding_size = 800
 # load the embedding vector using gensim
